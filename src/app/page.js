@@ -1,6 +1,8 @@
 import Image from "next/image";
 import BannerBg from "@/assets/images/banner-bg.jpg";
 import Button from "@/components/Button";
+import FoodCards from "@/components/FoodCard";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -108,6 +110,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+      <FoodCards />
 
 
       <section className="w-full bg-white py-12 lg:py-20 px-6 md:px-12">
@@ -235,6 +240,123 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+      <section className="w-full bg-black text-white py-20 px-6 md:px-12">
+        <div className="max-w-5xl mx-auto">
+
+          <div className="text-center">
+            <h2 className="mt-4 text-4xl md:text-5xl font-extrabold uppercase leading-tight">
+              Frequently Asked Questions
+            </h2>
+
+            <p className="mt-5 text-gray-400 max-w-2xl mx-auto leading-7">
+              Everything you need to know about ordering food, delivery,
+              payments, and support.
+            </p>
+          </div>
+
+          <div className="mt-14 space-y-5">
+            <div className="bg-white/5 border border-white/10 rounded-3xl p-6 hover:border-white transition duration-300">
+              <details className="group">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <h3 className="text-lg md:text-xl font-semibold">
+                    How long does delivery usually take?
+                  </h3>
+
+                  <span className="text-4xl group-open:rotate-45 transition duration-300">
+                    +
+                  </span>
+                </summary>
+
+                <p className="mt-5 text-gray-400 leading-7">
+                  Most orders are delivered within 30 to 60 minutes depending on
+                  your location, restaurant preparation time, and traffic.
+                </p>
+              </details>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-3xl p-6 hover:border-white transition duration-300">
+              <details className="group">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <h3 className="text-lg md:text-xl font-semibold">
+                    Can I track my order in real time?
+                  </h3>
+
+                  <span className="text-4xl group-open:rotate-45 transition duration-300">
+                    +
+                  </span>
+                </summary>
+
+                <p className="mt-5 text-gray-400 leading-7">
+                  Yes, you can track your order live from the restaurant to your
+                  doorstep directly through the app.
+                </p>
+              </details>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-3xl p-6 hover:border-white transition duration-300">
+              <details className="group">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <h3 className="text-lg md:text-xl font-semibold">
+                    What payment methods do you accept?
+                  </h3>
+
+                  <span className="text-4xl group-open:rotate-45 transition duration-300">
+                    +
+                  </span>
+                </summary>
+
+                <p className="mt-5 text-gray-400 leading-7">
+                  We support credit cards, debit cards, digital wallets, and
+                  cash on delivery in selected locations.
+                </p>
+              </details>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-3xl p-6 hover:border-white transition duration-300">
+              <details className="group">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <h3 className="text-lg md:text-xl font-semibold">
+                    Are there any special discounts available?
+                  </h3>
+
+                  <span className="text-4xl group-open:rotate-45 transition duration-300">
+                    +
+                  </span>
+                </summary>
+
+                <p className="mt-5 text-gray-400 leading-7">
+                  Yes, we regularly offer exclusive discounts, combo deals, and
+                  seasonal promotions for our customers.
+                </p>
+              </details>
+            </div>
+
+            <div className="bg-white/5 border border-white/10 rounded-3xl p-6 hover:border-white transition duration-300">
+              <details className="group">
+                <summary className="flex items-center justify-between cursor-pointer list-none">
+                  <h3 className="text-lg md:text-xl font-semibold">
+                    Do you provide customer support 24/7?
+                  </h3>
+
+                  <span className="text-4xl group-open:rotate-45 transition duration-300">
+                    +
+                  </span>
+                </summary>
+
+                <p className="mt-5 text-gray-400 leading-7">
+                  Absolutely. Our support team is available 24/7 to help with
+                  orders, payments, refunds, and delivery issues.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <Footer />
     </>
   );
 }
