@@ -24,6 +24,217 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+      <section className="w-full py-16 px-2 md:px-4">
+        <div className="px-4 grid grid-cols-1 xl:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-black uppercase">
+              Get Your Food In Less <br className="hidden md:flex" /> Than An Hour
+            </h2>
+
+            <div className="mt-8 border-l-4 border-gray-200 pl-5">
+              <p className="text-base leading-7 max-w-md">
+                Craving delicious meals without the hassle of cooking or leaving
+                your home? Order your favorite food quickly and satisfy your
+                cravings with just a few taps.
+              </p>
+
+              <Button className="bg-black text-white mt-4">Get the App</Button>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-gray-100 rounded-3xl p-6 hover:shadow-lg transition duration-300">
+              <span className="text-5xl font-extrabold text-gray-300">01</span>
+
+              <div className="mt-4 overflow-hidden rounded-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+                  alt="Download app"
+                  className="w-full aspect-video object-cover"
+                />
+              </div>
+
+              <h3 className="mt-5 text-2xl font-bold text-black">
+                Download the app
+              </h3>
+
+              <p className="mt-3 text-gray-600 text-sm leading-6">
+                Download the food delivery app and order your meals online for fast
+                delivery.
+              </p>
+            </div>
+
+            <div className="bg-orange-50 rounded-3xl p-6 hover:shadow-lg transition duration-300">
+              <span className="text-5xl font-extrabold text-orange-300">02</span>
+
+              <div className="mt-4 overflow-hidden rounded-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+                  alt="Select food"
+                  className="w-full aspect-video object-cover"
+                />
+              </div>
+
+              <h3 className="mt-5 text-2xl font-bold text-black">
+                Select your food
+              </h3>
+
+              <p className="mt-3 text-gray-600 text-sm leading-6">
+                Browse thousands of restaurants and pick the meals you love.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-3xl p-6 hover:shadow-lg transition duration-300">
+              <span className="text-5xl font-extrabold text-gray-300">03</span>
+
+              <div className="mt-4 overflow-hidden rounded-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1528715471579-d1bcf0ba5e83"
+                  alt="Confirm order"
+                  className="w-full aspect-video object-cover"
+                />
+              </div>
+
+              <h3 className="mt-5 text-2xl font-bold text-black">
+                Confirm your order
+              </h3>
+
+              <p className="mt-3 text-gray-600 text-sm leading-6">
+                Place your order easily and get your food delivered quickly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="w-full bg-white py-12 lg:py-20 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto text-center">
+
+          <h2 className="text-4xl md:text-5xl font-extrabold uppercase text-black">
+            Why We Are Best
+          </h2>
+          <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
+            <div className="space-y-8 text-left">
+
+              <div className="flex gap-4">
+                <div className="min-w-[52px] h-[52px] rounded-xl bg-black text-white flex items-center justify-center font-bold text-lg">
+                  01
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-black">
+                    Wide culinary selection
+                  </h3>
+
+                  <p className="mt-2 text-gray-600 leading-6 text-sm">
+                    Explore delicious meals from top restaurants with endless food
+                    choices.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="min-w-[52px] h-[52px] rounded-xl bg-black text-white flex items-center justify-center font-bold text-lg">
+                  02
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-black">
+                    Fast delivery
+                  </h3>
+
+                  <p className="mt-2 text-gray-600 leading-6 text-sm">
+                    Get your meals delivered quickly while they’re still fresh and
+                    hot.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="min-w-[52px] h-[52px] rounded-xl bg-black text-white flex items-center justify-center font-bold text-lg">
+                  03
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-black">
+                    Exclusive deals
+                  </h3>
+
+                  <p className="mt-2 text-gray-600 leading-6 text-sm">
+                    Enjoy amazing discounts and special offers available every day.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center gap-6">
+              <div className="w-[280px] h-[420px] overflow-hidden rounded-[140px] shadow-xl">
+                <img
+                  src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                  alt="Burger"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <Button className="bg-black text-white mt-4">Explore Menu</Button>
+            </div>
+
+            <div className="space-y-8 text-left">
+              <div className="flex gap-4">
+                <div className="min-w-[52px] h-[52px] rounded-xl bg-black text-white flex items-center justify-center font-bold text-lg">
+                  04
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-black">
+                    Real-time tracking
+                  </h3>
+
+                  <p className="mt-2 text-gray-600 leading-6 text-sm">
+                    Track your order live from the restaurant directly to your door.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="min-w-[52px] h-[52px] rounded-xl bg-black text-white flex items-center justify-center font-bold text-lg">
+                  05
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-black">
+                    24/7 support
+                  </h3>
+
+                  <p className="mt-2 text-gray-600 leading-6 text-sm">
+                    Our support team is always available whenever you need help.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="min-w-[52px] h-[52px] rounded-xl bg-black text-white flex items-center justify-center font-bold text-lg">
+                  06
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-black">
+                    Seamless ordering
+                  </h3>
+
+                  <p className="mt-2 text-gray-600 leading-6 text-sm">
+                    Order your favorite meals easily with a smooth and simple process.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </>
   );
 }
